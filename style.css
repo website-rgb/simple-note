@@ -1,0 +1,107 @@
+html {
+  background-color: rgb(27, 27, 27);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: Inter, sans-serif;
+  animation-name: main;
+  animation-duration: 1s;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+}
+
+.descr {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+  margin-left: 10px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.p {
+  color: white;
+  font-weight: 1;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, white, transparent);
+}
+
+.eingabe {
+  width: 90%;
+  align-self: center;
+  background: none;
+  border: 1px white solid;
+  padding: 5px;
+  color: white;
+}
+
+.eingabe:hover {
+  border: rgb(151, 151, 151) solid 1px;
+}
+
+.btn1 {
+  background: none;
+  border: 1px white solid;
+  color: white;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 50px;
+  font-weight: 1;
+  align-self: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.ausgabe {
+  width: fit-content;
+  padding: 5px;
+  color: white;
+  font-weight: 1;
+  border: 1px white solid;
+  align-self: center;
+}
+
+.btn2 {
+  background: none;
+  border: 1px white solid;
+  color: white;
+  width: fit-content;
+  align-self: center;
+  border-radius: 50px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: rgb(151, 151, 151) solid 1px;
+  transition: 0.1s;
+  color: rgb(151, 151, 151);
+}
+
+@keyframes main {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+  }
+}

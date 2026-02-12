@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="de">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <p class="descr">Simple Note</p>
+    </div>
+    <h1>Willkommen auf dieser Webseite!</h1>
+    <p class="p">
+      Hier kannst du dir eine Notiz merken für den Leben lang (oder bis du
+      deinen Browser deinstallierst)
+    </p>
+    <hr />
+    <h1>Eingabe</h1>
+    <textarea rows="1" placeholder="Text" id="auto" class="eingabe"></textarea>
+    <button class="btn1" onclick="ersetzen()">Bestätigen</button>
+    <br />
+    <hr />
+    <p id="ausgabe" class="ausgabe">Hier steht dein Text!</p>
+      <button id="btn2" class="btn2" onclick="kopieren()">Kopieren</button>
+      <button id="delete" class="btn2" onclick="del()">Löschen</button>
+    <hr />
+    <p class="p">
+      Diese Webseite wurde erstellt von @Red-Circuit auf Youtube und ist eine
+      Webseite um miz Javascript zu experimentieren
+    </p>
+    <script src="java.js"></script>
+  </body>
+</html>
